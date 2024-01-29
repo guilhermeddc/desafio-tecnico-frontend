@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #A6F74F rgb(166, 247, 79) #181C23 rgb(24, 28, 35)*/
+
+.bg-ada {
+  background-color: #181c23;
+}
+
+.bg-ada-light {
+  background-color: #101217;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
